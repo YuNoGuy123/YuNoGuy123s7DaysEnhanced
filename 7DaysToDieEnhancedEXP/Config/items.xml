@@ -8,17 +8,17 @@
 <property name="Meshfile" value="Items/Misc/sackPrefab"/>
 <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 <property name="Material" value="Mbrass"/>
-<property name="Stacknumber" value="125"/> <!-- STK ammo -->
+<property name="Stacknumber" value="125"/>
 <property name="EconomicValue" value="50"/>
 <property name="Group" value="Ammo/Weapons"/>
 <property class="Action1">
 <property name="Class" value="Projectile"/>
 	<property name="Gravity" value="-6"/>
-	<property name="Explosion.ParticleIndex" value="5"/> <!-- which Prefab/particle is used -->
-	<property name="Explosion.RadiusBlocks" value="2"/> <!-- damage radius for blocks -->
-	<property name="Explosion.RadiusEntities" value="6"/> <!-- damage radius for entities -->
+	<property name="Explosion.ParticleIndex" value="5"/> 
+	<property name="Explosion.RadiusBlocks" value="2"/> 
+	<property name="Explosion.RadiusEntities" value="6"/>
 	<property name="Explosion.DamageBonus.water" value="0"/>
-		<property name="Explosion.BlockDamage" value="2500"/> <!-- workaround, not affected by perks at all -->
+		<property name="Explosion.BlockDamage" value="2500"/>
 		<property name="Explosion.EntityDamage" value="442"/>
 				<property name="FlyTime" value=".2"/>
 		<property name="LifeTime" value="20"/>

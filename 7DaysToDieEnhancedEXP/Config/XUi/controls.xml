@@ -1,8 +1,8 @@
 <configs>
 <append xpath="/controls">
 	<!-- Make cells not look like crap and item icons fit properly -->
-	<kh60_backpack_item_stack>
-		<rect controller="ItemStack" style="kh60_itemStack, hover" collider_scale="1.1" >
+	<kh50_backpack_item_stack>
+		<rect controller="ItemStack" style="kh50_itemStack, hover" collider_scale="1.1" >
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="63" height="69" color="[black]" type="sliced" fillcenter="false" />	
 			<sprite depth="3" name="background" sprite="menu_empty3px" width="58" height="64" color="[darkGrey]" type="sliced" globalopacity="true" fillcenter="false"/>
 			<sprite depth="2" name="highlightOverlay" width="57" height="63" color="[darkGrey]" pos="0,0" type="sliced" globalopacity="true"/>
@@ -26,7 +26,7 @@
 			<!--*#$-IGS END.-$#-->
 			<sprite depth="13" name="assembleIcon" size="28,28" sprite="{stacklockicon}" color="{stacklockcolor}" visible="{isassemblelocked}" pos="14,-14" foregroundlayer="true" />
 		</rect>
-	</kh60_backpack_item_stack>
+	</kh50_backpack_item_stack>
 </append>
 
 

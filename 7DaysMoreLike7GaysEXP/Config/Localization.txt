@@ -1,6 +1,0 @@
-Key,File,Type,UsedInMainMenu,NoTranslate,english
-perkPackMuleRank1LongDesc,progression,perk,,,"Who has time to organize their stuff perfectly? Carry two more items without being encumbered."
-perkPackMuleRank2LongDesc,progression,perk,,,"Who has time to organize their stuff perfectly? Carry four more items without being encumbered."
-perkPackMuleRank3LongDesc,progression,perk,,,"Who has time to organize their stuff perfectly? Carry six more items without being encumbered."
-perkPackMuleRank4LongDesc,progression,perk,,,"Who has time to organize their stuff perfectly? Carry eight more items without being encumbered."
-perkPackMuleRank5LongDesc,progression,perk,,,"Who has time to organize their stuff perfectly? Carry ten more items without being encumbered, now you can almost carry your own mother!"

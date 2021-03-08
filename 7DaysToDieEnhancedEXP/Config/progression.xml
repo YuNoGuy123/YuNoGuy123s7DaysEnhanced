@@ -1,0 +1,17 @@
+<configs>
+
+
+<!-- change level XP stuff [WIP!!] -->
+<set xpath="progression/level/@exp_to_level">9000</set>
+<set xpath="progression/level/@experience_multiplier">1.04</set>
+
+
+
+
+
+
+ <!-- change pack mule cus it's gay -->
+<set xpath="/progression/perks/perk[@name='perkPackMule']/effect_group/passive_effect[@name='CarryCapacity'][@value='3,6,10,14,18']/@value">2,4,6,8,10</set>
+
+
+</configs>

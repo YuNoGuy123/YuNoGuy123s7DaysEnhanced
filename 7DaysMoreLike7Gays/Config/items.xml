@@ -1,0 +1,21 @@
+<configs>
+
+<append xpath="/items">
+
+</append>
+
+
+
+
+
+<!-- Make drinks stack to 50 -->
+<setattribute xpath="/items/item[starts-with(@name, 'drink') or starts-with(@name, 'food') and not(starts-with(@name, 'foodCrop')) and not(starts-with(@name, 'foodRaw'))]/property[@name='Stacknumber']" name="value">50</setattribute>
+<setattribute xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']" name="value">125</setattribute>
+<setattribute xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']" name="value">125</setattribute>
+<setattribute xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']" name="value">125</setattribute>
+
+
+
+
+
+</configs>
